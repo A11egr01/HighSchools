@@ -110,22 +110,9 @@ class ViewController: UIViewController {
                                                     let vc = HighSchoolVC(viewModel: highSchoolViewModel)
                                                     self.navigationController?.pushViewController(vc, animated: false)
                 }
-
-//                    highSchoolViewModel.fetchHighSchools (
-//                        highSchoolViewModel.fetchSATScores ()
-//
-//                        DispatchQueue.main.async {
-//                            LoadingOverlay.shared.hideOverlayView()
-//                            let vc = HighSchoolVC(viewModel: highSchoolViewModel)
-//                            self.navigationController?.pushViewController(vc, animated: false)
-//
-//                        }
-//                    )
-
                 }
             }
         })
     }
-    
 }
 
